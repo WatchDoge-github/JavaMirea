@@ -7,5 +7,6 @@ after_success:
 cache:
   directories:
     - ~/.gradle
+    
 notifications:
   email: false
