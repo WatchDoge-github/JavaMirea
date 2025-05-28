@@ -30,7 +30,7 @@ jobs:
     - name: Upload coverage to Coveralls
       run: ./gradlew coveralls
       env:
-        COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
+        COVERALLS_REPO_TOKEN=TvrCmQVrjm4vh9X8dGo6bwpanXydq9ETU
 
   dependency-submission:
 
